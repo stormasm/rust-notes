@@ -8,5 +8,3 @@ Send, Sync
 References
 
 https://www.youtube.com/watch?v=DkMwYxfSYNQ
-
-https://www.geeksforgeeks.org/use-yield-keyword-instead-return-keyword-python/
