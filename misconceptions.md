@@ -2,6 +2,10 @@ Fork of a post from this repo:
 
 https://github.com/pretzelhammer/rust-blog
 
+And hackernews comments
+
+https://news.ycombinator.com/item?id=23279731
+
 # Common Rust Lifetime Misconceptions
 
 _May 19th, 2020 · 34 minute read · #rust · #lifetimes_
