@@ -1,4 +1,7 @@
-[current version](https://github.com/jonathandturner/rfcs-1/blob/data_frame/text/0003-data-frames.md)
+### History
+
+- [current version](https://github.com/jonathandturner/rfcs-1/blob/data_frame/text/0003-data-frames.md)
+- [conversation](https://github.com/nushell/rfcs/pull/3/files)
 
 - Feature Name: data_frames
 - Start Date: 2020-08-05
