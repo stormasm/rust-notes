@@ -39,11 +39,6 @@ pub struct ParserState {
 ##### parser.rs
 
 ```rust
-pub struct Expression {
-    pub expr: Expr,
-    pub span: Span,
-    pub ty: Type,
-}
 
 pub struct Expression {
     pub expr: Expr,
