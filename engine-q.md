@@ -1,4 +1,18 @@
 
+### Parser otherwise known as parser.rs
+
+
+* parse_value takes a span and a shape
+* parse_statement is called from parse_block
+* parse_block is only called from the parser
+
+methods that call parse_block include :   
+* parse_block_expression
+* parse_full_column_path
+* parse_file which is only called from main.rs
+* parse_source which is only called from syntax_highlight.rs
+
+
 ##### parser_state.rs
 
 ```rust
