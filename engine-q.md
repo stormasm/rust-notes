@@ -1,10 +1,16 @@
 
 ### Parser otherwise known as parser.rs
 
+*Taking it from the top parse_file calls parse_block*
 
 * parse_value takes a span and a shape
 * parse_statement is called from parse_block
 * parse_block is only called from the parser
+
+methods that call parse_expression:   
+* parse_block
+* parse_statement
+* parse_multispan_value
 
 methods that call parse_block include :   
 * parse_block_expression
