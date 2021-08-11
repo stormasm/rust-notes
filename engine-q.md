@@ -18,6 +18,9 @@ methods that call parse_block include :
 * parse_file which is only called from main.rs
 * parse_source which is only called from syntax_highlight.rs
 
+##### parse_expression
+
+**parse_call** is a very critical method and it really only gets called in one place namely in **parse_expression** and if you look at **parse_expression** you will note that besides signaling **parse_math_expression** its main job is to run **parse_call**
 
 ##### parser_state.rs
 
