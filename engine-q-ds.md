@@ -4,7 +4,6 @@
 ##### nu-parser parser.rs
 
 ```rust
-
 pub struct Block {
     pub stmts: Vec<Statement>,
 }
@@ -66,11 +65,6 @@ pub enum Type {
 pub type VarId = usize;
 pub type DeclId = usize;
 pub type BlockId = usize;
-```
-
-##### parser.rs
-
-```rust
 
 pub enum SyntaxShape {
     /// A specific match to a word or symbol
@@ -187,15 +181,6 @@ pub enum Statement {
     Pipeline(Pipeline),
     Expression(Expression),
 }
-```
-
-
-
-```rust
-
-pub struct Block {
-    pub stmts: Vec<Statement>,
-}
 
 pub struct Call {
     /// identifier of the declaration to call
@@ -205,22 +190,11 @@ pub struct Call {
     pub named: Vec<(String, Option<Expression>)>,
 }
 
-pub struct Expression {
-    pub expr: Expr,
-    pub span: Span,
-    pub ty: Type,
-}
-
-pub struct Pipeline {
-    pub expressions: Vec<Expression>,
-}
-
 pub struct VarDecl {
     var_id: VarId,
     expression: Expression,
 }
 ```
-
 
 ##### nu-parser parser_state.rs
 
