@@ -222,7 +222,7 @@ pub struct VarDecl {
 ```
 
 
-##### parser_state.rs
+##### nu-parser parser_state.rs
 
 ```rust
 pub type VarId = usize;
@@ -259,7 +259,46 @@ pub struct ParserState {
 }
 ```
 
+##### nu-engine value.rs
 
+```
+pub enum Value {
+    Bool { val: bool, span: Span },
+    Int { val: i64, span: Span },
+    Float { val: f64, span: Span },
+    String { val: String, span: Span },
+    List { val: Vec<Value>, span: Span },
+    Block { val: BlockId, span: Span },
+    Nothing { span: Span },
+}
+```
+
+##### nu-engine state.rs
+
+```
+pub struct State {
+    pub parser_state: Rc<RefCell<ParserState>>,
+    pub stack: Stack,
+}
+```
+
+##### nu-engine eval.rs
+
+```
+pub enum ShellError {
+    OperatorMismatch {
+        op_span: Span,
+        lhs_ty: Type,
+        lhs_span: Span,
+        rhs_ty: Type,
+        rhs_span: Span,
+    },
+    Unsupported(Span),
+    InternalError(String),
+    VariableNotFound(Span),
+    CantConvert(String, Span),
+}
+```
 #### References
 
 ##### usize
