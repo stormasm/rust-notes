@@ -261,7 +261,7 @@ pub struct ParserState {
 
 ##### nu-engine value.rs
 
-```
+```rust
 pub enum Value {
     Bool { val: bool, span: Span },
     Int { val: i64, span: Span },
@@ -275,16 +275,24 @@ pub enum Value {
 
 ##### nu-engine state.rs
 
-```
+```rust
 pub struct State {
     pub parser_state: Rc<RefCell<ParserState>>,
     pub stack: Stack,
 }
+
+pub struct StackFrame {
+    pub vars: HashMap<VarId, Value>,
+    pub env_vars: HashMap<String, String>,
+    pub parent: Option<Stack>,
+}
+
+pub struct Stack(Rc<RefCell<StackFrame>>);
 ```
 
 ##### nu-engine eval.rs
 
-```
+```rust
 pub enum ShellError {
     OperatorMismatch {
         op_span: Span,
