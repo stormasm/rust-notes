@@ -1,4 +1,8 @@
-Example 1
+// Example 1
+// This comes from the the println below in the eval.rs eval_block method...
+
+for stmt in &block.stmts {
+    println!("\n{:?}",stmt);
 
 if $true { 10 } else { 20 }
 
