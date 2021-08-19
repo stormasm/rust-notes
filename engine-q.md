@@ -1,6 +1,9 @@
 
 * [engine-q datastructures](./engine-q-ds.md)
 
+* parse_statement is called only once from parse_block
+* parse_block is called from { parse_file, parse_source, parse_block_expression, parse_full_column_path}
+
 ### Parser otherwise known as parser.rs
 
 *Taking it from the top parse_file calls parse_block*
