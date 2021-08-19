@@ -1,6 +1,12 @@
 
 * [engine-q datastructures](./engine-q-ds.md)
 
+With this example:
+```rust
+  if $true { 10 } else { 20 }
+```
+parse_block is called 3 times: once from parse_file and twice from parse_block_expression
+
 * parse_statement is called only once from parse_block
 * parse_block is called from { parse_file, parse_source, parse_block_expression, parse_full_column_path}
 
