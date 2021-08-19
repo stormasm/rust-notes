@@ -13,12 +13,13 @@ Expression(Expression {
                                         span: Span { start: 10, end: 14 },
                                         ty: Block },
                             Expression {
-                                        expr: Keyword([101, 108, 115, 101], Span { start: 16, end: 20 },
-
-                            Expression { expr: Block(1),
-                                         span: Span { start: 22, end: 26 },
-                                         ty: Block }),
-                            span: Span { start: 16, end: 20 }, ty: Block }],
+                                        expr: Keyword([101, 108, 115, 101],
+                                              Span { start: 16, end: 20 },
+                                              Expression { expr: Block(1),
+                                                           span: Span { start: 22, end: 26 },
+                                                           ty: Block }),
+                                        span: Span { start: 16, end: 20 },
+                                        ty: Block }],
                          named: [] }),
     span: Span { start: 0, end: 27 },
       ty: Unknown })
