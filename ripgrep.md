@@ -1,4 +1,12 @@
 
+### Find a pattern in a certain file
+
+```rust
+rg csv -g 'Cargo.toml'
+```
+
+[ref](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md#manual-filtering-file-types)
+
 [Fixed Strings](https://mariusschulz.com/blog/fast-searching-with-ripgrep#fixed-strings) when you want to search for this exact string and not have rg interpret it as a regex or whatever.
 
 ```rust
