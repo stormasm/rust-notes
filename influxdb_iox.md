@@ -1,4 +1,13 @@
 
+To run the iox subcommands the server must be up first
+
+```rust
+iox
+ioxrun sql
+```
+
+### Postgresql Notes
+
 Initially to start up postgresql when you reboot the machine....
 
 ```rust
