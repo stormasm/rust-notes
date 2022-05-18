@@ -8,14 +8,7 @@ ioxrun sql
 
 ### Postgresql Notes
 
-Initially to start up postgresql when you reboot the machine....
-
-```rust
-brew services start postgresql
-```
-
-instructions are here:
-https://github.com/influxdata/influxdb_iox/tree/main/iox_catalog
+[catalog notes](https://github.com/influxdata/influxdb_iox/tree/main/iox_catalog)
 
 If *sqlx-cli* is not installed go ahead and do it...
 
