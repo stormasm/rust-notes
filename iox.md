@@ -37,6 +37,7 @@ cargo test or cnr
 
 
 ### References
-* [iox-slack](./iox-slack.md)
+* [youtube](https://github.com/stormasm/youtube/blob/main/cs/iox.md)
+* [slack](./iox-slack.md)
 * [postgresql](./postgresql.md)
 * [gdoc](https://docs.google.com/document/d/e/2PACX-1vQ2cTRWln8Nyn2yQh4CWwvyN5yI3Op-4RA3MpB1moivlQtBBQ9KhR5N2vvkMiZz51t_1EPhj5SDmJh5/pub)
