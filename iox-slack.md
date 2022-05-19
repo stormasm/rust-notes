@@ -28,4 +28,4 @@ Object storage (S3, Azure, Google)
 Postgres (this keeps the catalog of metadata about buckets, measurements, field types, parquet files, tombstones and other stuff)
 
 ### References
-* [iox-slack](./iox-slack.md)
+* [iox](./iox.md)
