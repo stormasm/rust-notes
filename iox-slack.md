@@ -11,7 +11,7 @@ IOx will also have a single server mode where everything is in a single process,
 
 I'm not familiar with Rockset's architecture, so I can't say. What we've landed on is a setup with 4 distinct components (these are IOx) and 3 shared services (these are other projects). Here's the list:
 
-IOx Parts:
+#### IOx Parts:
 
 Router (has the public facing API, accepts writes, queries, etc.)
 
@@ -20,7 +20,8 @@ Ingester (pulls data from Kafka, which was put there by the Router, buffers in m
 Querier (answers queries by combining data from Parquet files in object store with RPC queries to the Ingesters. Caches for performance)
 
 Compactor (rewrites Parquet files from object store to optimize for query performance and to remove deletes)
-Shared Services:
+
+#### Shared Services:
 
 Kafka (this is the write buffer)
 
