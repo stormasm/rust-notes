@@ -1,4 +1,23 @@
 
+### If tests are failing on a well known repo...
+
+run the following commands...   
+after getting a clean copy of the repo from github
+
+```rust
+cargo clean
+cargo update
+```
+
+Then to check and see what you have
+
+```rust
+cargo tree -i value-bag
+```
+
+[discord ref from openraft](https://discord.com/channels/1015845055434588200/1015845055434588205/1124198397977579630)
+
+
 ### Destructuring assignment
 
 * [From the Rust RFC Book](https://rust-lang.github.io/rfcs/2909-destructuring-assignment.html#Summary)
