@@ -16,3 +16,11 @@ tracing_subscriber::fmt()
     // sets this to be the default, global collector for this application.
     .init();
 ```
+
+To put some extra blank lines in your tracing code here is a simple hack
+
+```rust
+debug!(target: "\n\n", "done");
+or
+debug!(target: "\n\n", "");
+```
