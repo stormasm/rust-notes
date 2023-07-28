@@ -20,6 +20,7 @@ ct --test
 ### Then to see the output of just one test
 
 ```rust
+ct --test filename testname
 ct --test tpcds_planning tpcds_physical_q98
 ```
 
