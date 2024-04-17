@@ -1,5 +1,5 @@
 
-### in reference to Any as well
+### What is Any
 
 [How to get the type name from `TypeId`?](https://users.rust-lang.org/t/how-to-get-the-type-name-from-typeid/75507)
 
