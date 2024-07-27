@@ -13,8 +13,8 @@ fn eval_inner
 rg cargo_run
 ```
 
+Start on this adventure...  In the context of IRust, Nushell, Zed
+
 ```rust
 Command::new
 ```
-
-Start on this adventure...  In the context of IRust, Nushell, Zed
