@@ -12,3 +12,7 @@ fn eval_inner
 ```rust
 rg cargo_run
 ```
+
+### Command::new
+
+Start on this adventure...  In the context of IRust, Nushell, Zed
