@@ -18,3 +18,7 @@ Start on the [Command](https://doc.rust-lang.org/std/process/struct.Command.html
 ```rust
 rg Command::new
 ```
+
+### References
+
+- [youtube video on std::process::Command](https://www.youtube.com/watch?v=RtVzlk4om6U)
