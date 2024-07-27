@@ -16,5 +16,5 @@ rg cargo_run
 Start on the [Command](https://doc.rust-lang.org/std/process/struct.Command.html) adventure...  In the context of IRust, Nushell, Zed
 
 ```rust
-Command::new
+rg Command::new
 ```
