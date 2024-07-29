@@ -1,6 +1,7 @@
 
 ### Interesting Rust repos in github
 
+- https://github.com/GreptimeTeam/greptimedb
 - https://github.com/PRQL/prql
 - https://github.com/jqnatividad/qsv
 
