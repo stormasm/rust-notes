@@ -15,3 +15,7 @@
 #### Static
 
 - [Rust has a few reserved lifetime names. One of those is 'static](https://doc.rust-lang.org/rust-by-example/scope/lifetime/static_lifetime.html)
+
+#### Weak References
+
+- [How do Rust weak references work](https://www.reddit.com/r/rust/comments/3csud3/how_do_rust_weak_references_work/)
