@@ -5,3 +5,7 @@
 
 - [What is a dyn Trait](https://quinedot.github.io/rust-learning/dyn-trait-overview.html)
 - [On the meaning of type erasure in Rust](https://users.rust-lang.org/t/on-the-meaning-of-type-erasure-in-rust/113100)
+
+#### Rc
+
+- [Single-threaded reference-counting pointers](https://doc.rust-lang.org/std/rc/index.html)
