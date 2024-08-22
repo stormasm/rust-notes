@@ -11,3 +11,7 @@
 #### Rc
 
 - [Single-threaded reference-counting pointers](https://doc.rust-lang.org/std/rc/index.html)
+
+#### Static
+
+- [Rust has a few reserved lifetime names. One of those is 'static](https://doc.rust-lang.org/rust-by-example/scope/lifetime/static_lifetime.html)
