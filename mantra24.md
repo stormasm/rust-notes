@@ -5,6 +5,9 @@
 
 #### Dyn
 
+- https://doc.rust-lang.org/std/keyword.dyn.html
+- https://doc.rust-lang.org/rust-by-example/trait/dyn.html
+- https://users.rust-lang.org/t/a-tour-of-dyn-trait/97053
 - Google Search = 'rust dyn trait'
 - [What is a dyn Trait](https://quinedot.github.io/rust-learning/dyn-trait-overview.html)
 - [On the meaning of type erasure in Rust](https://users.rust-lang.org/t/on-the-meaning-of-type-erasure-in-rust/113100)
