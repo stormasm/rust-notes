@@ -1,4 +1,9 @@
 
+```rust
+cargo install cargo-cache
+cargo cache -a
+```
+
 ### How can I access a function's calling location each time it's called?
 
 - [stackoverflow](https://stackoverflow.com/questions/60714284/how-can-i-access-a-functions-calling-location-each-time-its-called)
