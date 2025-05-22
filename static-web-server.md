@@ -23,7 +23,7 @@ In the above example everything lives in pics
 
 The *-z* flag is required
 
-The *-d* switch is the top level directory of where
+The *-d* switch is the top level directory of where everything lives
 
 ### Pics Example
 
@@ -51,7 +51,7 @@ your diary files live in diary
 
 This is how you fire up your web server
 
-Go to the directory where your public folder lives like *tmp99*
+Go to the directory where your *public* folder lives like *tmp99*
 
 ```rust
 sws -z --directory-listing-order 0
