@@ -66,7 +66,7 @@ This is what your request looks like
 
 Note by default this is set to off so you need to add in the *-z* switch
 
--z, --directory-listing [<DIRECTORY_LISTING>]
+      --directory-listing [<DIRECTORY_LISTING>]
           Enable directory listing for all requests ending with the slash character (‘/’) [env: SERVER_DIRECTORY_LISTING=] [default: false] [possible values: true, false]   
 
       --directory-listing-order <DIRECTORY_LISTING_ORDER>   
