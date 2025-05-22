@@ -66,9 +66,11 @@ This is what your request looks like
 
 Note by default this is set to off so you need to add in the *-z* switch
 
--z, --directory-listing [<DIRECTORY_LISTING>]
-          Enable directory listing for all requests ending with the slash character (‘/’) [env: SERVER_DIRECTORY_LISTING=] [default: false] [possible values: true, false]
-      --directory-listing-order <DIRECTORY_LISTING_ORDER>
+-z, --directory-listing [<DIRECTORY_LISTING>]   
+          Enable directory listing for all requests ending with the slash character (‘/’) [env: SERVER_DIRECTORY_LISTING=] [default: false] [possible values: true, false]   
+
+      --directory-listing-order <DIRECTORY_LISTING_ORDER>   
           Specify a default code number to order directory listing entries per `Name`, `Last modified` or `Size` attributes (columns). Code numbers supported: 0 (Name asc), 1 (Name desc), 2 (Last modified asc), 3 (Last modified desc), 4 (Size asc), 5 (Size desc). Default 6 (unordered) [env: SERVER_DIRECTORY_LISTING_ORDER=] [default: 6]
-      --directory-listing-format <DIRECTORY_LISTING_FORMAT>
+
+      --directory-listing-format <DIRECTORY_LISTING_FORMAT>   
           Specify a content format for directory listing entries. Formats supported: "html" or "json". Default "html" [env: SERVER_DIRECTORY_LISTING_FORMAT=] [default: html] [possible values: html, json]
