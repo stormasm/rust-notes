@@ -26,6 +26,11 @@ cargo tree -i value-bag
 
 [discord ref from openraft](https://discord.com/channels/1015845055434588200/1015845055434588205/1124198397977579630)
 
+### Bytes crate and saving lots of memory
+
+Bytes Crate: This was originally posted by Darren on the core team channel
+
+- [How cloning a Vec had caused memory bloat: solution the Bytes crate](https://blog.veeso.dev/blog/en/rust-on-a-diet/)
 
 ### Destructuring assignment
 
